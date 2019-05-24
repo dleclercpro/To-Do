@@ -1,0 +1,21 @@
+.to-do {
+    width: 100%;
+    padding: 15px;
+    background: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+    cursor: pointer;
+
+    &:first-child {
+        border-top: 1px solid #e6e6e6;
+    }
+
+    &:hover {
+        background: #ead7d7;
+        color: #ffffff;
+    }
+
+    &.done {
+        text-decoration: line-through;
+        color: #dddddd;
+    }
+}

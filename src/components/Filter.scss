@@ -1,0 +1,25 @@
+.filter {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+
+    &.is-active {
+        border: 1px solid #ead7d7;       
+    }
+
+    &:not(:last-child) {
+        margin-right: 20px;        
+    }
+
+    &:hover {
+        background: #ead7d7;
+        border: 1px solid #ead7d7;
+        color: #ffffff;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}

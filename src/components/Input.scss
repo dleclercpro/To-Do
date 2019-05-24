@@ -1,0 +1,25 @@
+.form {
+    width: 100%;
+    
+    > .input {
+        background: #ffffff;
+        border: none;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 3px;
+        font-style: italic;
+        font-size: 20px;
+        
+        &::placeholder {
+            color: #dddddd;
+        }
+
+        &:not(:placeholder-shown) {
+            font-style: normal;
+        }
+
+        &:focus {
+            outline: 0;
+        }
+    }
+}
